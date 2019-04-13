@@ -2,13 +2,18 @@
 This package helps developers to make google analytics dispatches easy. Based on google's documentation: https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide
 
 <br/>
+###### To start do:
+
+```composer require neomrc/google-analytics```
+
+<br/>
 This is a pretty straightforward service. Here is a sample of an event hit:
 
 ```
-use Neomrc\GoogleAnalytics\GoogleAnalyticsService;
+use Neomrc\GoogleAnalytics;
 ...
 try {
-    $tracker = new GoogleAnalyticsService()->track('event');
+    $tracker = new GoogleAnalytics()->track('event');
     $tracker->setCategory('categoryFoo');
         ->setAction('actionBar');
         ->send();
