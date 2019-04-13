@@ -2,6 +2,7 @@
 This package helps developers to make google analytics dispatches easy. Based on google's documentation: https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide
 
 <br/>
+
 ###### To start do:
 
 ```composer require neomrc/google-analytics```
