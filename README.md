@@ -22,8 +22,16 @@ try {
     // tracker sending failed
 }
 ```
+<br/>
+
+To instantiate:
+> new GoogleAnalytics()->track(`<enter hit type here>`);
 
 <br/>
+
+`This will initialize the hit type class in which you can set the values by using the methods below`
+
+<br/><br/>
 
 ### Possible hit types
 
@@ -49,6 +57,11 @@ Methods | Required | Value Type
 `setAction` | `true` | `string`
 `setLabel` | `false` | `string`
 `setValue` | `false` | `string`
+
+<br/><br/>
+
+To send/dispatch the analytics object
+> ->send(`<optional array of data here ['key' => 'value']>`)
 
 <br/>
 
