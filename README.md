@@ -3,6 +3,7 @@ This package helps developers to make google analytics dispatches easy. Based on
 
 <br/>
 This is a pretty straightforward service. Here is a sample of an event hit:
+
 ```
 use Neomrc\GoogleAnalytics\GoogleAnalyticsService;
 ...
@@ -17,13 +18,16 @@ try {
 ```
 
 <br/>
-#### Possible hit types
+
+### Possible hit types
+
 <small>_Note: types are case-sensitive_</small>
 - `event`
 - `pageview`
 
 <br/><br/>
-##### Pageview 
+
+#### Pageview 
 Methods | Required | Value Type
 --- | --- | ---
 `setDocumentHostname` | `false` | `string`
@@ -31,7 +35,8 @@ Methods | Required | Value Type
 `setTitle` | `false` | `string`
 
 <br/><br/>
-##### Event 
+
+#### Event 
 Methods | Required | Value Type
 --- | --- | ---
 `setCategory` | `true` | `string`
@@ -39,5 +44,6 @@ Methods | Required | Value Type
 `setLabel` | `false` | `string`
 `setValue` | `false` | `string`
 
-<br/><br/>
+<br/>
+
 ###### This is my first package. I hope someone will find this useful.
