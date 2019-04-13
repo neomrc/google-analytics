@@ -1,6 +1,6 @@
 <?php
 
-namespace GoogleAnalytics;
+namespace Neomrc\GoogleAnalytics;
 
 use GoogleAnalytics\Exceptions\TypeNotFoundException;
 

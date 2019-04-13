@@ -1,6 +1,6 @@
 <?php
 
-namespace GoogleAnalytics\Exceptions;
+namespace Neomrc\GoogleAnalytics\Exceptions;
 
 use Exception;
 

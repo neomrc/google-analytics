@@ -15,8 +15,8 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
-            "GoogleAnalytics": "src/"
+        "psr-4": {
+            "Neomrc/GoogleAnalytics": "src/"
         }
     }
 }

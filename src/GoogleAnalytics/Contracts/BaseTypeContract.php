@@ -1,6 +1,6 @@
 <?php
 
-namespace GoogleAnalytics\Contracts;
+namespace Neomrc\GoogleAnalytics\Contracts;
 
 interface BaseTypeContract
 {

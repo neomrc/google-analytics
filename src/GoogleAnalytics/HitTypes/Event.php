@@ -1,6 +1,6 @@
 <?php
 
-namespace GoogleAnalytics\HitTypes;
+namespace Neomrc\GoogleAnalytics\HitTypes;
 
 use GoogleAnalytics\Contracts\BaseTypeContract;
 

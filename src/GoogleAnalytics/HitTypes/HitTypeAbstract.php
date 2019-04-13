@@ -1,6 +1,6 @@
 <?php
 
-namespace GoogleAnalytics\HitTypes;
+namespace Neomrc\GoogleAnalytics\HitTypes;
 
 use GuzzleHttp\Client;
 use GoogleAnalytics\Contracts\BaseTypeContract;
