@@ -34,6 +34,11 @@ Set Tracking ID:
 
 <br/>
 
+Set Client ID:
+> ->setClientId(`<clientId>`)
+
+<br/>
+
 Set User ID:
 > ->setUserId(`<userId>`)
 
