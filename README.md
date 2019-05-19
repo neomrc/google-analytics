@@ -31,6 +31,16 @@ To instantiate:
 
 `This will initialize the hit type class in which you can set the values by using the methods below`
 
+<br/>
+
+Set Tracking ID:
+> ->setTrackingId(`<trackingId>`)
+
+<br/>
+
+Set User ID:
+> ->setUserId(`<userId>`)
+
 <br/><br/>
 
 ### Possible hit types
