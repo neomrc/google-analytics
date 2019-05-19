@@ -15,8 +15,11 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
+        "files": [
+            "src/GoogleAnalytics/helpers.php"
+        ],
         "psr-4": {
-            "Neomrc\\GoogleAnalytics\\": "src/GoogleAnalyticsService"
+            "Neomrc\\GoogleAnalytics\\": "src/GoogleAnalytics"
         }
     }
 }
