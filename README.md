@@ -29,10 +29,6 @@ To instantiate:
 
 <br/>
 
-`This will initialize the hit type class in which you can set the values by using the methods below`
-
-<br/>
-
 Set Tracking ID:
 > ->setTrackingId(`<trackingId>`)
 
@@ -41,7 +37,11 @@ Set Tracking ID:
 Set User ID:
 > ->setUserId(`<userId>`)
 
-<br/><br/>
+<br/>
+
+`This will initialize the hit type class in which you can set the values by using the methods below`
+
+<br/>
 
 ### Possible hit types
 
@@ -49,7 +49,7 @@ Set User ID:
 - `event`
 - `pageview`
 
-<br/><br/>
+<br/>
 
 #### Pageview 
 Methods | Required | Value Type
@@ -58,7 +58,7 @@ Methods | Required | Value Type
 `setPage` | `false` | `string`
 `setTitle` | `false` | `string`
 
-<br/><br/>
+<br/>
 
 #### Event 
 Methods | Required | Value Type
